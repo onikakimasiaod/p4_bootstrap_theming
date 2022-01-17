@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="css/custom.css">
 
     <title>INDEX</title>
 </head>
@@ -16,34 +18,128 @@
 <body class="bg-image" style="
     background-image: url('assets/space.jpg');
     height: 100vh;  background-repeat: no-repeat;
-    background-attachment: fixed;;
+    background-attachment: fixed;
   ">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">SPACE</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-          </div>
+
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="assets/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- CONTAINER INDEX  -->
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="card bg-transparent border-0" style="width: 30rem;">
+                    <img src="assets/satellite.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h1 class="card-title text-light text-center">SOYUZ TMA-M</h1>
+                        <h2 class="card-title text-light text-center">SPACECRAFT</h2>
+                        <!-- <a href="blog.html" class="btn btn-danger d-flex align-self-center" style="width: 2rem;">Read More</a> -->
+                        <div class="col text-center">
+                            <button class="btn btn-danger regular-button">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <h1 class=" text-light text-center">FEATURED PROJECTS</h1>
+                <div class="card bg-transparent border-0 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card-body">
+                        <img class="card-img-top" style="width: 300px; height: 250px;" src="assets/moonRocket.jpg"
+                            alt="">
+                    </div>
+                </div>
+
+                <div class="card bg-transparent border-0 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card-body">
+                        <img class="card-img-top" style="width: 300px; height: 250px;" src="assets/moonRocket.jpg"
+                            alt="">
+                    </div>
+                </div>
+
+                <div class="card bg-transparent border-0 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card-body">
+                        <img class="card-img-top" style="width: 300px; height: 250px;" src="assets/moonRocket.jpg"
+                            alt="">
+                    </div>
+                </div>
+
+                <div class="card bg-transparent border-0 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card-body">
+                        <img class="card-img-top" style="width: 300px; height: 250px;" src="assets/moonRocket.jpg"
+                            alt="">
+                    </div>
+                </div>
+            </div>
         </div>
-      </nav>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+
+        <!-- DIV SEPARADOR -->
+
+        <div class="mensaje bg-danger">
+            <div class="contenido p-4">
+                <h1 class="titulo text-light text-center">OUR MISSION</h1>
+                <p class="text-light text-center">
+                    This website template has been designed by Free Website Templates for you, for free. You can replace
+                    all this text with your own text.
+                </p>
+            </div>
+        </div>
+
+        <!-- MÁS CARTAS -->
+    <div class="bg-dark">
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col-xl-6">
+                    <div class="card bg-dark">
+                        <div class="card-body">
+                            <img class="card-img-top" style="width: 200px; height: 150px;" src="assets/moonRocket.jpg"/>
+                            <h5 class="card-title text-light">Special title treatment</h5>
+                            <p class="card-text text-light">With supporting text below as a natural lead-in to
+                                additional content.</p>
+                            <a href="#" class="btn btn-danger">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="card bg-dark">
+                        <div class="card-body">
+                            <img class="card-img-top" style="width: 200px; height: 150px;" src="assets/moonRocket.jpg"/>
+                            <h5 class="card-title text-light">Special title treatment</h5>
+                            <p class="card-text text-light">With supporting text below as a natural lead-in to
+                                additional content.</p>
+                            <a href="#" class="btn btn-danger">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
 </body>
+
 </html>
