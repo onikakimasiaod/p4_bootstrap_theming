@@ -8,8 +8,6 @@ $danger: #630031;
 
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
-$font-family-base: 'Audiowide', cursive;
-
 
 // Option A:
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -20,4 +18,8 @@ $font-family-base: 'Audiowide', cursive;
 
 body {
     overflow-x: hidden;
+}
+
+.font-autowide {
+    font-family: 'Audiowide', cursive;
 }
