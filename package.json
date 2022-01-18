@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/santimb96/p4_bootstrap_theming#readme",
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.7.2"
   },
   "devDependencies": {
     "sass": "^1.48.0"
