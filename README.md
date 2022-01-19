@@ -41,3 +41,4 @@ Por otra parte, se ha empleado la opción "A" debido a la complejidad a la hora 
 
 Se han editado la paleta de colores que usaba Bootstrap por defecto para adecuarla a las necesidades de la página. Los colores son los siguientes:
 
+![img.png](img.png)
