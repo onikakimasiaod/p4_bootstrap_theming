@@ -2,7 +2,7 @@
 ## ASIGNATURA: DIW
 ## FECHA DE ENTREGA: 28/01/2022
 
-## ENLACE NETLIFY: https://hardcore-fermi-b52852.netlify.app/index.html
+### ENLACE NETLIFY: [Netlify: P4_BOOTSTRAP_THEMING](https://hardcore-fermi-b52852.netlify.app/index.html)
 
 ## COMPONENTS USADOS:
 <ul>
@@ -42,3 +42,9 @@ Por otra parte, se ha empleado la opción "A" debido a la complejidad a la hora 
 Se han editado la paleta de colores que usaba Bootstrap por defecto para adecuarla a las necesidades de la página. Los colores son los siguientes:
 
 ![img.png](img.png)
+
+El primario destaca en las páginas de blog.html y contact.html, las cuales no usan un fondo de color fijo; 
+el secundario es el color granate usado para algunos div y botones, en sustitución de la clase -danger; el de
+RRSS simplemente es un tono gris que se usa en un div y en las letras de los h1; por último, tanto footer como text
+ocupan el mismo color, sólo que he definido dos variables distintas por si acaso quisiera cambiar el color de las letras o del footer
+no afectara a todo.
