@@ -1,3 +1,4 @@
 .vscode
 .idea
 *.yml
+/node_modules
