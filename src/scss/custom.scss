@@ -1,25 +1,62 @@
-// Custom.scss
+// FONT SIZE FOOTER OVERRIDE
 
 $font-sizes: (
-  6: 0.8rem
+  6: 0.8rem,
 );
 
-$danger: #630031;
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+$primary: #212529;
+$secondary: #630031;
+$rrss: gray;
+$footer: white;
+$text: white;
 
+// PALETA DE COLORES OVERRIDE
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "rrss": $rrss,
+  "footer": $footer,
+  "text": $text,
+);
 
 // Option A:
+// IMPORTING ALL BOOTSTRAP
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 
 // 2. Include any default variable overrides here
 
+// CUSTOM CSS STYLES
+
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .font-autowide {
-    font-family: 'Audiowide', cursive;
+  font-family: "Audiowide", cursive;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler {
+  color: $text;
+  border: none;
+}
+.nav-link {
+  color: $text;
+  transition: 0.3s;
+}
+.nav-link:hover {
+  background-color: $secondary;
+  border-radius: 5px;
+  color: $text;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
 }
