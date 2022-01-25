@@ -41,7 +41,7 @@ Por otra parte, se ha empleado la opción "A" debido a la complejidad a la hora 
 
 Se han editado la paleta de colores que usaba Bootstrap por defecto para adecuarla a las necesidades de la página. Los colores son los siguientes:
 
-![img.png](img.png)
+![img.png](./src/assets/img.png)
 
 El primario destaca en las páginas de blog.html y contact.html, las cuales no usan un fondo de color fijo; 
 el secundario es el color granate usado para algunos div y botones, en sustitución de la clase -danger; el de

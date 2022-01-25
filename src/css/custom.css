@@ -10812,4 +10812,20 @@ body {
   padding-left: 0.5rem;
 }
 
+.bg-image {
+  background-image: url("../assets/spacePrueba.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.satelite {
+  width: 30em;
+}
+
+.projects {
+  width: 300px;
+  height: 250px;
+}
+
 /*# sourceMappingURL=custom.css.map */
