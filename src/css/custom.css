@@ -10781,6 +10781,7 @@ textarea.form-control-lg {
 }
 body {
   overflow-x: hidden;
+  width: 100%;
 }
 
 .font-autowide {
@@ -10826,6 +10827,21 @@ body {
 .projects {
   width: 300px;
   height: 250px;
+}
+
+.featured {
+  width: 200px;
+  height: 150px;
+}
+
+.league {
+  width: 600px;
+  height: 550px;
+}
+
+.hr {
+  background: white;
+  height: 5px;
 }
 
 /*# sourceMappingURL=custom.css.map */
